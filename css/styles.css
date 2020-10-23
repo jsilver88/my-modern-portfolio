@@ -185,7 +185,7 @@ nav {
 header {
   min-height: 100vh;
   background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url('/images/hero-bg.jpg') center/cover;
+    url('../images/hero-bg.jpg') center/cover;
   background-repeat: no-repeat;
 }
 
@@ -367,6 +367,7 @@ header {
   box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
 }
 .fields input {
+  width: 100%;
   padding: 20px 10px 20px 5px;
   margin-left: 10px;
   background: none;
@@ -377,6 +378,8 @@ header {
 }
 .fields textarea {
   background: none;
+  width: 100%;
+  resize: none;
   border: none;
   outline: none;
   font-family: var(--secondary-font);
